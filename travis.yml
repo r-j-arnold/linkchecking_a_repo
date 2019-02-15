@@ -1,0 +1,2 @@
+script:
+ - sudo docker run --rm -it -u $(id -u):$(id -g) linkchecker/linkchecker --verbose https://github.com/r-j-arnold/linkchecking_a_repo
